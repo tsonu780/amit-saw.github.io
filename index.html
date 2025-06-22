@@ -3,33 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amit Saw</title>
+    <title>Amit Kumar Saw</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Amit Saw</h1>
+            <h1>Amit Kumar Saw</h1>
             <nav id="navbar">
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="#home" class="active">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#research">RESEARCH</a></li>
+                    <li><a href="#courses">COURSES</a></li>
+                    <li><a href="#people">PEOPLE</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         </div>
     </header>
     <main class="container">
-        <section id="about">
-            <h2>About</h2>
-            <p>Amit Saw is a PhD student in the Department of Computer Science at the University of Cincinnati. He is advised by Dr. Amit Kumar saw.</p>
+        <section id="home" class="section">
+            <h2>Guidance, Autonomy, Learning, and Control for Intelligent Systems (GALACxIS) Lab</h2>
+            <button class="get-started"><a href="#about"><span>Get Started</span></a></button>
+        </section>
+        <section id="about" class="section">
+            <h2>ABOUT</h2>
+            <p>Dr. Amit Kumar Saw is an Assistant Professor in the Department of Aerospace Engineering and Engineering Mechanics at the University of Cincinnati. Dr. Sinha directs the Guidance, Autonomy, Learning, and Control for Intelligent Systems (GALACxIS) Lab.</p>
+        </section>
+        <section id="research" class="section">
+            <h2>RESEARCH</h2>
+            <p>The GALACxIS Lab focuses on advancing autonomous systems through robust guidance, control, and learning frameworks. Our research explores:</p>
+            <ul>
+                <li><strong>Guidance Algorithms:</strong> Real-time trajectory planning in uncertain environments.</li>
+                <li><strong>Reinforcement Learning:</strong> Adaptive control policies for UAVs and autonomous vehicles.</li>
+                <li><strong>Multi-Agent Systems:</strong> Coordination and decision-making in distributed autonomous networks.</li>
+                <li><strong>Fault-Tolerant Control:</strong> Ensuring stability under system and sensor failures.</li>
+            </ul>
+            <p>Our projects are funded by agencies such as NASA, NSF, and the DoD, and published in top-tier journals and conferences.</p>                    </section>
+        <section id="courses" class="section">
+            <h2>COURSES</h2>
+            <p>I teach courses in control systems, guidance, and autonomous systems at the University of Cincinnati.</p>
+        </section>
+        <section id="people" class="section">
+            <h2>PEOPLE</h2>
+            <p>Details about team members will be added here.</p>
+        </section>
+        <section id="news" class="section">
+            <h2>NEWS</h2>
+            <p>Stay updated with the latest news from the lab.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>CONTACT</h2>
+            <p>Email: sinhaa@ucmail.uc.edu</p>
         </section>
     </main>
     <footer>
         <div class="container">
-            <p>&copy; 2025 Amit Saw. All rights reserved.</p>
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Mailing Address</h3>
+                    <p>Dr. Amit Kumar Saw<br>Assistant Professor<br>730 Rhodes Hall<br>Department of Aerospace Engineering and Engineering Mechanics<br>College of Engineering and Applied Science<br>University of Cincinnati<br>2901 Woodside Drive<br>Cincinnati, Ohio 45221, USA<br><a href="mailto:sinhaa@ucmail.uc.edu">sinhaa@ucmail.uc.edu</a></p>
+                </div>
+                <div class="footer-column">
+                    <h3>Sitemap</h3>
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#research">RESEARCH</a></li>
+                        <li><a href="#courses">COURSES</a></li>
+                        <li><a href="#people">PEOPLE</a></li>
+                        <li><a href="#news">NEWS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Public Profiles</h3>
+                    <ul>
+                        <li><a href="https://scholar.google.com/">Google Scholar</a></li>
+                        <li><a href="https://researchgate.net/">ResearchGate</a></li>
+                        <li><a href="https://linkedin.com/">LinkedIn</a></li>
+                        <li><a href="https://github.com/">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-text">© Amit Kumar Saw 2025. All Rights Reserved. | Designed and Developed by: Vaibhav Sinha</p>
         </div>
     </footer>
     <script src="js/main.js"></script>
