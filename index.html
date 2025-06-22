@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amit Kumar Saw</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.cdnfonts.com/css/big-john');
+</style>
 </head>
 <body>
     <header>
@@ -12,13 +16,13 @@
             <h1>Amit Kumar Saw</h1>
             <nav id="navbar">
                 <ul>
-                    <li><a href="#home" class="active">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#research">RESEARCH</a></li>
-                    <li><a href="#courses">COURSES</a></li>
-                    <li><a href="#people">PEOPLE</a></li>
-                    <li><a href="#news">NEWS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                  <li><a href="#home" class="nav-link active">HOME</a></li>
+                  <li><a href="#about" class="nav-link">ABOUT</a></li>
+                  <li><a href="#research" class="nav-link">RESEARCH</a></li>
+                  <li><a href="#courses" class="nav-link">COURSES</a></li>
+                  <li><a href="#people" class="nav-link">PEOPLE</a></li>
+                  <li><a href="#news" class="nav-link">NEWS</a></li>
+                  <li><a href="#contact" class="nav-link">CONTACT</a></li>
                 </ul>
             </nav>
             <div class="menu-toggle" onclick="toggleMenu()">☰</div>
@@ -31,8 +35,61 @@
         </section>
         <section id="about" class="section">
             <h2>ABOUT</h2>
-            <p>Dr. Amit Kumar Saw is an Assistant Professor in the Department of Aerospace Engineering and Engineering Mechanics at the University of Cincinnati. Dr. Sinha directs the Guidance, Autonomy, Learning, and Control for Intelligent Systems (GALACxIS) Lab.</p>
-        </section>
+            <div class="container">
+              <div class="row">
+                <!-- Image and Resume Button -->
+                <div class="col-md-4 text-center mb-4">
+                  <div class="mb-3">
+                    <div class="my-image">
+                      <img src="./static/amit.jpg" alt="Dr. Amit Kumar Saw" title="Dr. Amit Kumar Saw" class="img-fluid rounded">
+                    </div>
+                  </div>
+                  <a href="files/cv_AmitSaw.pdf" target="_blank">
+                    <button type="button" class="btn btn-outline-primary btn-lg" style="
+                        border-radius: 40px;
+                        width: 80%;
+                        font-weight: bold;
+                        font-size: 20px;
+                        font-family: 'Dosis', sans-serif;
+                      ">
+                      View My Resume
+                    </button>
+                  </a>
+                </div>
+          
+                <!-- Name and Intro -->
+                <div class="col-md-8 mb-4 text-center">
+                  <h5 class="mb-4 font-weight-bold" style="font-size: 30px; font-family: 'Big John', sans-serif;">
+                    AMIT KUMAR SAW
+                  </h5>
+                  <p style="
+                      font-size: 20px;
+                      line-height: 1.6;
+                      font-family: 'Dosis', sans-serif;
+                      text-align: justify;
+                    ">
+                    Dr. Amit Kumar Saw is an Assistant Professor in the Department of Aerospace Engineering and Engineering Mechanics at the University of Cincinnati, and is the director of the Guidance, Autonomy, Learning, and Control for Intelligent Systems (GALACxIS) Lab. He works at the intersection of control theory, artificial intelligence, and dynamical systems. At the core of his research agenda is the development of autonomous multivehicle guidance, navigation, and control strategies, grounded in control theory and motivated by real-world deployment challenges.
+                  </p>
+                </div>
+          
+                <!-- Long Bio -->
+                <div class="col-md-12">
+                  <hr>
+                  <p style="
+                      font-size: 16px;
+                      line-height: 1.8;
+                      font-family: 'Dosis', sans-serif;
+                      text-align: justify;
+                    ">
+                    Prior to joining the University of Cincinnati, Dr. Amit Kumar Saw was a postdoctoral researcher affiliated with the Unmanned Systems Lab at The University of Texas at San Antonio. His prior research experience includes a brief postdoctoral fellowship at the Intelligent Systems & Control Lab, Department of Aerospace Engineering, Indian Institute of Technology Bombay. Dr. Saw also holds the distinction of completing his Ph.D. degree in Aerospace Engineering from the Indian Institute of Technology Bombay in around two years, setting a record for the fastest completion of a Ph.D. in the Department of Aerospace Engineering and one of the fastest in the institute. He is also a recipient of the prestigious Naik and Rastogi Award for excellence in Ph.D. research.
+                    <br><br>
+                    Dr. Saw is a senior member of IEEE (including Control Systems Society, Aerospace and Electronic Systems Society, and Robotics and Automation Society), a member of IFAC, and a senior member of AIAA. He also serves as a subcommittee chair for the IEEE TC on Manufacturing, Automation, and Robotic Control.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
         <section id="research" class="section">
             <h2>RESEARCH</h2>
             <p>The GALACxIS Lab focuses on advancing autonomous systems through robust guidance, control, and learning frameworks. Our research explores:</p>
@@ -57,7 +114,7 @@
         </section>
         <section id="contact" class="section">
             <h2>CONTACT</h2>
-            <p>Email: sinhaa@ucmail.uc.edu</p>
+            <p>Email: amit@ugmail.com</p>
         </section>
     </main>
     <footer>
@@ -65,18 +122,18 @@
             <div class="footer-columns">
                 <div class="footer-column">
                     <h3>Mailing Address</h3>
-                    <p>Dr. Amit Kumar Saw<br>Assistant Professor<br>730 Rhodes Hall<br>Department of Aerospace Engineering and Engineering Mechanics<br>College of Engineering and Applied Science<br>University of Cincinnati<br>2901 Woodside Drive<br>Cincinnati, Ohio 45221, USA<br><a href="mailto:sinhaa@ucmail.uc.edu">sinhaa@ucmail.uc.edu</a></p>
+                    <p>Dr. Amit Kumar Saw<br>Assistant Professor<br>730 Rhodes Hall<br>Department of Aerospace Engineering and Engineering Mechanics<br>College of Engineering and Applied Science<br>University of Cincinnati<br>2901 Woodside Drive<br>Cincinnati, Ohio 45221, USA<br><a href="mailto:amit@ugmail.com">amit@ugmail.com</a></p>
                 </div>
                 <div class="footer-column">
                     <h3>Sitemap</h3>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#research">Research</a></li>
-                        <li><a href="#courses">Courses</a></li>
-                        <li><a href="#people">People</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#research" class="nav-link">Research</a></li>
+                        <li><a href="#courses" class="nav-link">Courses</a></li>
+                        <li><a href="#people" class="nav-link">People</a></li>
+                        <li><a href="#news" class="nav-link">News</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -89,7 +146,7 @@
                     </ul>
                 </div>
             </div>
-            <p class="footer-text">© Amit Kumar Saw 2025. All Rights Reserved. | Designed and Developed by: Vaibhav Sinha</p>
+            <p class="footer-text">© Amit Kumar Saw 2025. All Rights Reserved. | Designed and Developed by: Sonu Kumar Thakur</p>
         </div>
     </footer>
     <script src="js/main.js"></script>
